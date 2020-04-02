@@ -1,0 +1,35 @@
+terminal linux
+
+pwd - indica em qual pagina esta localizado o terminal
+
+cd nome_pasta - Entrando em pastas
+
+cd .. - Voltando para a pasta anterior
+
+ls - lista tudo que tem na pagina que o terminal esta
+
+cd  nome_pasta/nome da pasta - vai direto para pagina qeu vc quer
+
+cd ../../ - voltar varias paginas.
+
+cd +primeira letra da pasta +tab = completa o nome da pasta
+
+clear - limpa a tela
+
+mkdir +Nome da nova pasta - Cria uma pasta
+
+echo - escreve um mensagem no terminal.
+
+echo TExte! >(rediriciona para o arquivo) mensagem.txt - cria um arquivo com a mensagem.
+
+cat + nome do arquivo = abri o conteudo do arquivo.
+
+gedit + nome do arquivo = abri como interface grafica
+
+cp nome do arquivo + novo destino/. - copiar um arquivo de um lugar para outro
+
+mv nome do arquivo+novo nome = mudar nome do arquivo
+
+mv - mover um arquivo de uma pasta para outra.
+
+
