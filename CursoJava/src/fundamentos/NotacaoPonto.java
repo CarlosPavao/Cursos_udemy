@@ -34,7 +34,7 @@ public class NotacaoPonto {
         String nome = entrada.nextLine();
         //Vai Trocar o X pelo Nome informado pelo usuario
         String y = "Bom dia X!!!"
-            .replace("X",nome).concat("!!!");
+            .replace("X",nome);//.concat("!!!");
         
             System.out.println(y);
 
