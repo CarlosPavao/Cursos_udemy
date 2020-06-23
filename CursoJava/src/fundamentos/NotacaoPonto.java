@@ -10,8 +10,6 @@ public class NotacaoPonto {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        double a = 2.3;
-        
         String s = "Bom dia X";
         //s.toUpperCase() deixa todas as letras maisculas.
         s = s.toUpperCase();
@@ -37,6 +35,6 @@ public class NotacaoPonto {
             .replace("X",nome);//.concat("!!!");
         
             System.out.println(y);
-
+        entrada.close();
     }
 }
