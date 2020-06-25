@@ -23,5 +23,7 @@ public class DesafioWhile {
 
         double media = total/qntdNotas;
         System.out.printf("Média = %.2f\n",media);
+
+        entrada.close();
     }
 }

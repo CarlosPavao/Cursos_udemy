@@ -1,0 +1,328 @@
+{
+    // Use o IntelliSense para aprender sobre possíveis atributos.
+    // Passe o mouse para ver as descrições dos atributos existentes.
+    // Para obter mais informações, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SwitchSemBreak",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.SwitchSemBreak",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DesafioFor",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.DesafioFor",
+            "projectName": "CursoJava"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DesafioWhile<CursoJava>",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.DesafioWhile",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DoWhile<CursoJava>",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.DoWhile",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-For1<CursoJava>",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.For1",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-For2<CursoJava>",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.For2",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-For3<CursoJava>",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.For3",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-If<CursoJava>",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.If",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IfElse<CursoJava>",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.IfElse",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IfElseIf<CursoJava>",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.IfElseIf",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WhileDeterminado<CursoJava>",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.WhileDeterminado",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WhileInderteminado<CursoJava>",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.WhileInderteminado",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AreaCircunferencia<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.AreaCircunferencia",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConversaoTipoPrimitivoNumerico<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.ConversaoTipoPrimitivoNumerico",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DesafioCalculadora<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.DesafioCalculadora",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DesafioDiaSemana<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.DesafioDiaSemana",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercicio01<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Exercicio01",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercicio2<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Exercicio2",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercicio3<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Exercicio3",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercicio4<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Exercicio4",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Import<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Import",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Inferencia<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Inferencia",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NotacaoPonto<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.NotacaoPonto",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Aritmeticos<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Operadores.Aritmeticos",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DesafioLogicos<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Operadores.DesafioLogicos",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DesafiosAritmeticos<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Operadores.DesafiosAritmeticos",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Logicos<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Operadores.Logicos",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Relacionais<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Operadores.Relacionais",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TipoStringEquals<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Operadores.TipoStringEquals",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Unarios<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Operadores.Unarios",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-atribuicao<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Operadores.atribuicao",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ternario<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Operadores.ternario",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrimeiroPrograma<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.PrimeiroPrograma",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrimitivoVsObejto<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.PrimitivoVsObejto",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Temperatura<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Temperatura",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TiposPrimitivos<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.TiposPrimitivos",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Wrapper<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.Wrapper",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-conversaoNumeroString<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.conversaoNumeroString",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-conversaoStringNumero<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.conversaoStringNumero",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-desafioConversao<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.desafioConversao",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-foreach<CursoJava>",
+            "request": "launch",
+            "mainClass": "fundamentos.foreach",
+            "projectName": "CursoJava"
+        }
+    ]
+}
