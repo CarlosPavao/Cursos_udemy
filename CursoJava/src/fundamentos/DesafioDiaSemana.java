@@ -42,8 +42,6 @@ public class DesafioDiaSemana {
         }else{
             System.out.println("Dia inválido!");
         }
-
-
-        
+        entrada.close();
     }
 }

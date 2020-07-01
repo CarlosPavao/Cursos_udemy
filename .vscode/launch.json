@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AreaCircTeste",
+            "request": "launch",
+            "mainClass": "Classe.AreaCircTeste",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DataTeste",
+            "request": "launch",
+            "mainClass": "Classe.DataTeste",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ProdutoTeste",
+            "request": "launch",
+            "mainClass": "Classe.ProdutoTeste",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio9",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.Exercicio9",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio8",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.Exercicio8",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio7",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.Exercicio7",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio6",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.Exercicio6",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio4",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.Exercicio4",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio1",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.Exercicio1",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContinueRotulado",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.ContinueRotulado",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BreakRotulado",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.BreakRotulado",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Continue",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.Continue",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Break",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.Break",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SwitchComBreak",
+            "request": "launch",
+            "mainClass": "estruturasDeControle.SwitchComBreak",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SwitchSemBreak",
             "request": "launch",
             "mainClass": "estruturasDeControle.SwitchSemBreak",
