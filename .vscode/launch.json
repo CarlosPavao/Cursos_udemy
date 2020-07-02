@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - VarlorVsReferencia",
+            "request": "launch",
+            "mainClass": "Classe.VarlorVsReferencia",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AreaCircTeste",
             "request": "launch",
             "mainClass": "Classe.AreaCircTeste",
