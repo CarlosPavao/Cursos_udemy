@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Jantar",
+            "request": "launch",
+            "mainClass": "Classe.desafio.Jantar",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ValorNulo",
+            "request": "launch",
+            "mainClass": "Classe.ValorNulo",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrimeiroTrauma",
+            "request": "launch",
+            "mainClass": "Classe.PrimeiroTrauma",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - VarlorVsReferencia",
             "request": "launch",
             "mainClass": "Classe.VarlorVsReferencia",
