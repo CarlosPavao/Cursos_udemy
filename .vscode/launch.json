@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CarroTeste",
+            "request": "launch",
+            "mainClass": "oo.composicao.CarroTeste",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hash",
+            "request": "launch",
+            "mainClass": "Colecoes.Hash",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Mapa",
+            "request": "launch",
+            "mainClass": "Colecoes.Mapa",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Pilha",
+            "request": "launch",
+            "mainClass": "Colecoes.Pilha",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Fila",
+            "request": "launch",
+            "mainClass": "Colecoes.Fila",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lista",
+            "request": "launch",
+            "mainClass": "Colecoes.Lista",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConjuntoComportado",
+            "request": "launch",
+            "mainClass": "Colecoes.ConjuntoComportado",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConjuntoBaguncado",
+            "request": "launch",
+            "mainClass": "Colecoes.ConjuntoBaguncado",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Equals",
+            "request": "launch",
+            "mainClass": "Classe.Equals",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EqualsHashcode",
+            "request": "launch",
+            "mainClass": "Classe.EqualsHashcode",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Matriz",
+            "request": "launch",
+            "mainClass": "arrays.Matriz",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExercicioArrays",
+            "request": "launch",
+            "mainClass": "arrays.ExercicioArrays",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Version1",
+            "request": "launch",
+            "mainClass": "arrays.Version1",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - foreach",
+            "request": "launch",
+            "mainClass": "arrays.foreach",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio",
+            "request": "launch",
+            "mainClass": "arrays.Exercicio",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Jantar",
             "request": "launch",
             "mainClass": "Classe.desafio.Jantar",
