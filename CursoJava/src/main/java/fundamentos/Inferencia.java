@@ -8,10 +8,10 @@ public class Inferencia {
 		
 		//var pelo valor digitado ele ja define o o tipo automatico
 		
-		var b=4.5;
+		double b=4.5;
 		System.out.println(b);
 				
-		var c ="Texto";
+		String c ="Texto";
 		System.out.println(c);
 		
 		c ="Outro Texto";
