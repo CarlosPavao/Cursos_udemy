@@ -8,6 +8,7 @@ public class Motor {
     Motor(Carro carro){
         this.carro = carro;
     }
+    
     int giros(){
         if(!ligado) {
             return 0;
