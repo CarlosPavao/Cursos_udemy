@@ -6,7 +6,7 @@ public class DataTeste {
         Data data1 = new Data(15, "Outubro", 1993);
         
 
-        var data2 = new Data();
+        Data data2 = new Data();
         data2.dia = 27;
         data2.mes ="Janeiro";
         data2.ano = 2017;
