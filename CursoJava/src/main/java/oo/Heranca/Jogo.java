@@ -7,39 +7,38 @@ package oo.Heranca;
 public class Jogo {
     public static void main(String[] args) {
         
-        Monstro Monstro = new Monstro();
+        Monstro monstro1 = new Monstro();
+        monstro1.x = 10;
+        monstro1.y = 10;
+        Monstro monstro2 = new Monstro(10,10);
+        Jogador Heroi = new Heroi(10,11);
         
-        Monstro.x = 10;
-        Monstro.y = 10;
-        
-        Jogador Heroi = new Heroi();
-        
-        Heroi.x = 10;
-        Heroi.y = 11;
                 
         
         
         
-        System.out.println("Monstro tem =>"+Monstro.vida);
+        System.out.println("Monstro tem =>"+monstro1.vida);
         System.out.println("Heroi tem =>"+Heroi.vida);
+        System.out.println("Monstro tem =>"+monstro2.vida);
         
-        Monstro.atacar(Heroi);
-        Heroi.atacar(Monstro);
         
-        Monstro.atacar(Heroi);
-        Heroi.atacar(Monstro);
+        monstro1.atacar(Heroi);
+        Heroi.atacar(monstro1);
         
-        Monstro.atacar(Heroi);
-        Heroi.atacar(Monstro);
+        monstro1.atacar(Heroi);
+        Heroi.atacar(monstro1);
         
-        Monstro.atacar(Heroi);
-        Heroi.atacar(Monstro);
+        monstro1.atacar(Heroi);
+        Heroi.atacar(monstro1);
         
-        Monstro.andar(Direcao.NORTE);
-        Monstro.atacar(Heroi);
-        Heroi.atacar(Monstro);
+        monstro1.atacar(Heroi);
+        Heroi.atacar(monstro1);
         
-       System.out.println("Monstro tem =>"+Monstro.vida);
+        monstro1.andar(Direcao.NORTE);
+        monstro1.atacar(Heroi);
+        Heroi.atacar(monstro1);
+        
+       System.out.println("Monstro tem =>"+monstro1.vida);
         System.out.println("Heroi tem =>"+Heroi.vida);
         
         
