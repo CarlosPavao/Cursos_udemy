@@ -1,4 +1,9 @@
-package oo.Heranca;
+package oo.Heranca.Teste;
+
+import oo.Heranca.Direcao;
+import oo.Heranca.Heroi;
+import oo.Heranca.Jogador;
+import oo.Heranca.Monstro;
 
 /**
  *

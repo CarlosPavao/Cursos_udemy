@@ -7,9 +7,10 @@ package oo.Heranca.desafio;
 public class Ferrari extends Carro{
     
     Ferrari(){
+
         this(315);
     }
-    Ferrari(int velocidadeMaxima){
+    public Ferrari(int velocidadeMaxima){
         super(velocidadeMaxima);
         delta = 350;
     }

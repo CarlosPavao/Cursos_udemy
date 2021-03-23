@@ -3,7 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package oo.Heranca.desafio;
+package oo.Heranca.Teste;
+
+import oo.Heranca.desafio.Carro;
+import oo.Heranca.desafio.Civic;
+import oo.Heranca.desafio.Ferrari;
 
 /**
  *
