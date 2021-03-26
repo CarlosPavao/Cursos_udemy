@@ -15,9 +15,6 @@ import oo.Heranca.desafio.Ferrari;
  */
 public class CarroTeste {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
        
        Carro c1 = new Civic();
@@ -47,20 +44,22 @@ public class CarroTeste {
         System.out.println(c1.velocidadeAtual);
         
         Ferrari c2 = new Ferrari(400);
-        
+        c2.ligarTurbo();
         c2.Acelerar();
-        c2.Acelerar();   
+        c2.Acelerar();
+        c2.desligarTurbo();
         c2.Acelerar();   
         c2.Acelerar(); 
         
-        System.out.println(c2.velocidadeAtual);
+        System.out.println("Acelerando: "+ c2.velocidadeAtual);
+        System.out.println(c2.velocidadeDoAr());
         
         c2.Frear();
         c2.Frear();
         c2.Frear();
         c2.Frear();
         
-        System.out.println(c2.velocidadeAtual);
+        System.out.println("Freiando: "+c2.velocidadeAtual);
        
        
     }
