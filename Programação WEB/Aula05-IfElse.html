@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        if(2 == 7){
-            document.write('Entrou dentro do bloco If(verdadeiro)')
+        var nota = prompt('Digite a nota do aluno')
+        //Prompt foram de entrada de dados.
+
+        var media = 7
+
+        if(nota >= media){
+            document.write('Aluno Aprovado')
         }else{
-            document.write('Entrou dentro do bloco else(falso)')
+            document.write('Aluno Resprovado')
         }
     </script>
 </head>

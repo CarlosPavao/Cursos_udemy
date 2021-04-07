@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*
+        if(2 == 2 && 2 >= 1 && 'a' == 'b'){//somente é verdade se todas forem verdadeiras
+            document.write('Verdadeiro')
+        }else{
+            document.write('Falso')
+        }
+        if(2 == 2 || 2 >= 1 || 'a' == 'b'){//somente é falso se todas forem falsa
+            document.write('Verdadeiro')
+        }else{
+            document.write('Falso')
+        }
+                if(!(4==2)){
+            document.write('Verdadeiro')
+        }else{
+            document.write('Falso')
+        }
+        */
+        var nota = prompt('Digite a nota do aluno')
+        var faltas = prompt('Digite a Quantidade de faltas')
+        var media = 7
+        var faltasMaximas=15
+
+        if(nota >= media && faltas<=faltasMaximas){
+            document.write('Aluno Aprovado')
+        }else{
+            document.write('Aluno Resprovado')
+        }
+
+        var resultado = nota >= media && faltas<=faltasMaximas ? 'Aluno Aprovado' : 'Aluno Resprovado'
+
+        document.write(resultado)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
