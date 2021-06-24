@@ -1,7 +1,5 @@
 package Lambdas;
 
-import javax.crypto.MacSpi;
-import javax.sound.sampled.SourceDataLine;
 
 public class CalculoTeste {
 

@@ -9,11 +9,11 @@ package Lambdas;
  *
  * @author Carlos Pavão
  */
-
+//Functiona - força a interface ter um unico metódo.
 @FunctionalInterface
 public interface Calculo {
 
-    public double executar(double a, double b);
+    double executar(double a, double b);
 
     default String legal() {
         return "legal";
